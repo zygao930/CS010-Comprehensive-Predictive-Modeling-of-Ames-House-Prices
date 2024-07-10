@@ -12,13 +12,13 @@ Key preprocessing steps included outlier removal using the IQR method, handling 
 ## Modeling
 Several candidate models were evaluated:
 
-	•	Linear Regression: Exhibited strong fit but potential overfitting.
-	•	Ridge Regression: Balanced fit and generalization, mitigating multicollinearity.
-	•	Random Forest Regression: Captured complex interactions but with moderate accuracy.
-	•	LGBM Regressor: Efficient with high accuracy and minimal overfitting.
-	•	XGB Regressor: Strong fit but suffered from overfitting.
-	•	Neural Network: Handled intricate patterns, with potential for higher accuracy with more epochs.
-	•	Voting Regressor: Combined Ridge and LGBM for enhanced accuracy.
+•	Linear Regression: Exhibited strong fit but potential overfitting.
+•	Ridge Regression: Balanced fit and generalization, mitigating multicollinearity.
+•	Random Forest Regression: Captured complex interactions but with moderate accuracy.
+•	LGBM Regressor: Efficient with high accuracy and minimal overfitting.
+•	XGB Regressor: Strong fit but suffered from overfitting.
+•	Neural Network: Handled intricate patterns, with potential for higher accuracy with more epochs.
+•	Voting Regressor: Combined Ridge and LGBM for enhanced accuracy.
 
 ## Conclusion
 Ridge and LGBM Regressor models were selected for their superior accuracy and generalization. These models provide reliable predictions for property pricing, aiding stakeholders in making informed decisions. Future work includes enhancing the interpretability of LGBM and optimizing Ridge's parameters to further stabilize and improve model performance across different datasets and scenarios.
