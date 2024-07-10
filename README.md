@@ -4,7 +4,7 @@
 The Ames Housing dataset, compiled by Dean De Cock in 2011 for educational purposes, encompasses comprehensive data on residential properties in Ames, Iowa. The dataset's primary goal is to predict housing prices, offering valuable insights into various factors that influence home values. These factors include neighborhood attributes, building materials, and property amenities, making the dataset a rich resource for industries such as real estate, property management, and urban planning.
 
 ## Exploratory Data Analysis (EDA)
-EDA revealed that the target variable, 'SalePrice', is right-skewed. Numerical features exhibited various degrees of correlation with the target variable, necessitating the consideration of multicollinearity and skewness in further analysis. Categorical features, visualized for cardinality, highlighted significant variations that could impact modeling.
+EDA revealed that the target variable, ```SalePrice```, is right-skewed. Numerical features exhibited various degrees of correlation with the target variable, necessitating the consideration of multicollinearity and skewness in further analysis. Categorical features, visualized for cardinality, highlighted significant variations that could impact modeling.
 
 ## Data Preprocessing
 Key preprocessing steps included outlier removal using the IQR method, handling missing values with suitable imputation techniques, and label encoding for categorical variables. The data was split into training and testing sets to prevent data leakage. Log transformation was applied to address skewness in the target variable, followed by feature selection using filter and wrapper methods to enhance model performance.
